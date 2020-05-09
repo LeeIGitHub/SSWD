@@ -1,0 +1,62 @@
+/* pages/game_prepare/game_prepare.wxss */
+
+.camp{
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    padding-left: 10rxp;
+
+    flex-wrap: wrap;
+}
+.campName,.btnAdd,.btnRemove,.campNumber{
+    width: 320rpx;
+    height: 500rpx;
+
+    text-align: center;
+
+    box-sizing:border-box;
+    border-style: solid;
+    border-width: 20rpx;
+    border-color: #000;
+    border-radius: 20rpx;
+}
+
+.btnAdd{
+    height: 80rpx;
+    margin-top: 30rpx;
+
+    background: #883e36;
+}
+
+.campNumber{
+    height: 132rpx;
+
+    font-size: 100rpx;
+
+    border-style: none;
+    margin-top: 30rpx;
+
+}
+
+.btnStart{
+    margin: 88rpx auto;
+
+    width: 400rpx;
+    height: 100rpx;
+
+    background: black;
+}
+
+.btnBack{
+    width: 100rpx;
+    height: 100rpx;
+
+    margin-top: 88rpx;
+    margin-left: 30rpx;
+
+    box-sizing:border-box;
+    border-style: solid;
+    border-width: 20rpx;
+    border-color: #000;
+    border-radius: 20rpx;
+}

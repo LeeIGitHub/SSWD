@@ -1,0 +1,49 @@
+/* pages/components/dialog/dialog.wxss */
+.content{
+    width: 100%;
+    height: 100%;
+
+    position: fixed;
+    padding: 0rpx;
+    margin: 0rpx;
+
+    background: rgba(0, 0, 0, 0.32);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dialogRoot{
+    width: 600rpx;
+    height: auto;
+
+    background: white;
+
+    border-radius: 12rpx;
+
+}
+
+.dialogContent{
+    width: 100%;
+    padding-top: 10rpx;
+    padding-bottom: 10rpx;
+    
+    background: #883e36;
+}
+.dialogTitle{
+    margin: 0 auto;
+    background: #888888;
+}
+
+.dialogButtonParent{
+    display: flex;
+    justify-content: space-around;
+}
+.dialogButton{
+    width: 100%;
+    height: 100rpx;
+
+    flex: 1;
+    background: #cc6666;
+}

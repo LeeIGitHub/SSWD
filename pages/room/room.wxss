@@ -1,0 +1,156 @@
+.tableParent{
+    width: 100%;
+    height: 900rpx;
+}
+.table{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 18rpx;
+}
+
+.cell{
+    width: 100%;
+    background: #c66;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    width: 222rpx;
+    height: 290rpx;
+    background: #cc6;
+}
+.num{
+    font-size: 28rpx;
+
+    position: relative;
+    background: #888888;
+    width: 44rpx;
+    height: 44rpx;
+
+    box-sizing:border-box;
+    border-style: solid;
+    border-width: 6rpx;
+    border-color: #000;
+    border-radius: 20rpx;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    z-index: 1;
+}
+.layout{
+    position: relative;
+    top: -22rpx;
+    left: 22rpx;
+    background: darkolivegreen;
+    width: 200rpx;
+    height: 268rpx;
+
+    box-sizing:border-box;
+    border-style: solid;
+    border-width: 6rpx;
+    border-color: #000;
+    border-radius: 20rpx;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.avatarLayout{
+    width: 160rpx;
+    height: 160rpx;
+    margin-top: 20rpx;
+
+}
+.avatar{
+    position: relative;
+    z-index: 0;
+}
+.homeOwner{
+    position: relative;
+    z-index: 1;
+
+    top: -40rpx;
+    left: 120rpx;
+
+    width: 40rpx;
+    height: 40rpx;
+    background: white;
+
+    box-sizing:border-box;
+    border-style: solid;
+    border-width: 6rpx;
+    border-color: #000;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.userName{
+    font-size: 36rpx;
+    background: #cc6666;
+    margin-top: 20rpx;
+}
+
+.addBtn{
+    width: 222rpx;
+    height: 290rpx;
+    background: #cc6;
+
+    border-style: dashed;
+    box-sizing:border-box;
+    border-width: 6rpx;
+    border-color: #000;
+    border-radius: 20rpx;
+}
+
+.nextBtn{
+    position: fixed;
+    margin: auto;
+
+    right: 0;
+    left: 0;
+    bottom: 60rpx;
+
+    width: 400rpx;
+    height: 100rpx;
+    background: black;
+    border-radius: 50rpx;
+
+    color: white;
+    font-size: 36rpx;
+    text-align: center;
+    line-height: 100rpx;
+}
+
+.popupBg {
+    position: fixed;
+    z-index: 10;
+
+    margin: 10rpx auto;
+    left: 0rpx;
+    right: 0rpx;
+
+    width: 600rpx;
+    height: 1000rpx;
+
+    background: white;
+
+    border-style: dashed;
+    box-sizing:border-box;
+    border-width: 6rpx;
+    border-color: #000;
+    border-radius: 20rpx;
+}
+.popupWord{
+    font-size: 60rpx;
+    text-align: center;
+    line-height: 1000rpx;
+}

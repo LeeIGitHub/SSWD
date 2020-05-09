@@ -1,0 +1,10 @@
+<view class="list">
+    <view class="item_parent"
+          wx:for="{{userList}}"
+    >
+        <view class="item">
+            <cover-image class="avatar" src="{{item.avatar}}"/>
+            <view class="name">{{item.name}}</view>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,22 @@
+<view class="content">
+
+    <view class="dialogRoot">
+
+        <view class="dialogContent">
+            <text class="dialogTitle">
+                {{title}}
+            </text>
+        </view>
+
+        <view class="dialogButtonParent">
+
+            <button class="dialogButton">
+                {{leftButtonText}}
+            </button>
+            <button class="dialogButton">
+                {{rightButtonText}}
+            </button>
+        </view>
+    </view>
+
+</view>

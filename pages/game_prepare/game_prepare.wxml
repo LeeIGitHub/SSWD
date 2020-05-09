@@ -1,0 +1,38 @@
+<view>
+
+    <view class="camp">
+        <view class="campName">
+            ONE
+        </view>
+        <view class="campName">
+            TWO
+        </view>
+
+        <view class="btnAdd" bindtap="addOneNum">
+            ↑
+        </view>
+        <view class="btnAdd">
+            ↑
+        </view>
+
+        <view class="campNumber">
+            {{oneNumber}}
+        </view>
+        <view class="campNumber">
+            1
+        </view>
+
+        <view class="btnAdd" bindtap="removeOneNum">
+            ↓
+        </view>
+        <view class="btnAdd">
+            ↓
+        </view>
+
+        <view class="btnBack">
+        </view>
+        <view class="btnStart">
+        </view>
+    </view>
+
+</view>

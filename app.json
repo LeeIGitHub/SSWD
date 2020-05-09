@@ -1,0 +1,21 @@
+{
+  "pages": [
+    "pages/components/dialog/dialog",
+    "pages/room/room",
+    "pages/game_prepare/game_prepare",
+    "pages/container/list/list",
+    "pages/container/wxml/wxml",
+    "pages/index/index",
+    "pages/list/list",
+    "pages/container/scroll-view/scroll-view",
+    "pages/logs/logs",
+    "pages/websocket"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

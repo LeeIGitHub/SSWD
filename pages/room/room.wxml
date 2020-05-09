@@ -1,0 +1,48 @@
+<view class="popupBg" wx:if="{{myWordPopIsShow}}">
+    <view class="popupWord">
+        {{myWord}}
+    </view>
+</view>
+
+<scroll-view class="tableParent" scroll-y="true">
+    <view class="table">
+
+        <block wx:for="{{userList}}">
+            <view class="cell" data-user="{{item}}" bindtap="itemClick">
+                <view class="item" wx:if="{{index<userList.length-1}}">
+
+                    <view class="num">{{index+1}}</view>
+                    <view class="layout">
+                        <view class="avatarLayout">
+
+                            <cover-image class="avatar" src="{{item.avatar}}"/>
+
+                            <view class="homeOwner" wx:if="{{index==0}}">房</view>
+
+                        </view>
+
+                        <view class="userName">{{item.name}}</view>
+
+                    </view>
+                </view>
+
+                <view class="addBtn" wx:if="{{index==userList.length-1}}" bindtap="addBtnClick">
+
+                </view>
+            </view>
+        </block>
+
+    </view>
+</scroll-view>
+
+
+<view class="nextBtn" wx:if="{{gameState==0}}">
+    下一步
+</view>
+<view class="nextBtn" wx:if="{{gameState==1}}" bindtouchstart="btnSeeWord" bindtouchend="btnUnSeeWord">
+    按住查看
+</view>
+
+<mp-dialog title="test" show="{{dialogExposeIsShow}}" bindbuttontap="exposeUser" buttons="{{buttons}}">
+    <view>test</view>
+</mp-dialog>
